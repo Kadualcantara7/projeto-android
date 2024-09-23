@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width:495px) {
+@media screen and (max-width:375px) {
+    aside > ul {
+        columns: 1;
+    }
+}
+
+@media screen and (min-width:496px) {
     span#burguer {
         display: none;
     }
@@ -11,9 +17,11 @@
 
     menu > ul > li {
         display: inline-block;
+        
     }
+}
 
-    main {
-        width: 375px;
-    }
+@media screen and (min-width: 496px) {
+    a {
+        padding: 7px;
 }

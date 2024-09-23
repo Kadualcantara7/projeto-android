@@ -76,7 +76,7 @@ span#burguer {
     color: var(--cor5);
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 span#burguer:hover {
@@ -99,7 +99,7 @@ menu {
 nav > menu > a {
     color: white;
     padding: 8px;
-    margin: 11px;
+    margin: -5px;
     text-decoration: none;
     transition-duration: .7s;
 }
